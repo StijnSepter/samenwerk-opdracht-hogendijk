@@ -3,9 +3,9 @@ function myFunction() {
   var space = document.getElementById("space");
   if (menu.style.display === "block") {
     menu.style.display = "none";
-    space.style.height = "90px";
+    space.style.height = "240px";
   } else {
     menu.style.display = "block";
-    space.style.height = "445px";
+    space.style.height = "475px";
   }
 }
